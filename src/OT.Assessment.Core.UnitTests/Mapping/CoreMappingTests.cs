@@ -1,9 +1,7 @@
 ﻿using AutoFixture;
-using AutoFixture.Xunit2;
 using AutoMapper;
 using FluentAssertions;
-using OT.Assessment.Api.Contract.Request;
-using OT.Assessment.Consumer.Mapping;
+using OT.Assessment.Core.Mapping;
 using OT.Assessment.Core.Dtos;
 using OT.Assessment.Data.Models;
 

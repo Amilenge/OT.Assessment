@@ -1,8 +1,8 @@
 ﻿using Autofac;
 using AutoMapper;
 using Microsoft.Extensions.Configuration;
-using OT.Assessment.Consumer.Mapping;
 using OT.Assessment.Core.DependencyInjection;
+using OT.Assessment.Core.Mapping;
 
 namespace OT.Assessment.Consumer.DependencyInjection
 {

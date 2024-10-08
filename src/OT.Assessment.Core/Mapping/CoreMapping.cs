@@ -2,7 +2,7 @@
 using OT.Assessment.Core.Dtos;
 using OT.Assessment.Data.Models;
 
-namespace OT.Assessment.Consumer.Mapping
+namespace OT.Assessment.Core.Mapping
 {
     public class CoreMapping : Profile
     {

@@ -6,7 +6,6 @@ using Microsoft.Extensions.DependencyInjection;
 using OT.Assessment.Core.Messaging.Consumers;
 using OT.Assessment.Data.DependencyInjection;
 using OT.Assessment.Data.Models;
-using System.Reflection;
 
 namespace OT.Assessment.Core.DependencyInjection
 {
@@ -17,9 +16,10 @@ namespace OT.Assessment.Core.DependencyInjection
         public static ContainerBuilder RegisterConsumers(this ContainerBuilder builder)
         {
             builder
-                .RegisterAssemblyTypes(Assembly.GetExecutingAssembly())
+                .RegisterAssemblyTypes(typeof(IConsumer).Assembly)
                 .Where(t => typeof(IConsumer).IsAssignableFrom(t) && !t.IsAbstract)
                 .As<IConsumer>()
+                .AsSelf()
                 .SingleInstance();
 
             return builder;

@@ -2,7 +2,7 @@
 using AutoMapper;
 using FluentAssertions;
 using OT.Assessment.Api.Contract.Request;
-using OT.Assessment.Consumer.Mapping;
+using OT.Assessment.Core.Mapping;
 using OT.Assessment.Data.Models;
 
 namespace OT.Assessment.Consumer.UnitTests.Mapping

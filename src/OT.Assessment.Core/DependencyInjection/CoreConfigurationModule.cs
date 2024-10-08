@@ -1,6 +1,6 @@
 ﻿using Autofac;
 using AutoMapper;
-using OT.Assessment.Consumer.Mapping;
+using OT.Assessment.Core.Mapping;
 
 namespace OT.Assessment.Core.DependencyInjection
 {

@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 using Moq;
 using OT.Assessment.Api.Contract.Request;
 using OT.Assessment.Api.Controllers;
-using OT.Assessment.Consumer.Mapping;
+using OT.Assessment.Core.Mapping;
 using OT.Assessment.Core;
 using OT.Assessment.Core.Messaging.Senders;
 using OT.Assessment.Data.Models;

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Moq;
-using OT.Assessment.Consumer.Mapping;
+using OT.Assessment.Core.Mapping;
 using OT.Assessment.Core.Messaging.Consumers;
 using RabbitMQ.Client;
 

@@ -25,7 +25,7 @@ namespace OT.Assessment.Core.DependencyInjection
             builder.RegisterType<CasinoWagerRequestSender>()
                 .As<IMessageSender<CasinoWagerRequest>>()
                 .AsSelf()
-                .InstancePerDependency();
+                .SingleInstance();
 
             builder.Register(ctx =>
             {

@@ -1,3 +1,6 @@
+Developer: Amani MIlenge
+Linkedin: https://goo.gl/DMTRMS
+
 ### 2. Running the Application
 - Run SQL script located in **Solution Items\DatabaseGenerate.sql** which will create the DB and tables
 - Open **two instances of Visual Studio**.
@@ -5,7 +8,7 @@
 - In the second instance, run the **Tester** project.
 
 ### 3. Validation
-Once all components are running, verify the database for new records. On a local setup, the application is successfully able to process **all 7000 requests**.
+Once tester completes execution, verify the database for new records(I noticed sometimes nbomber duplicate wager/transaction ids so this are skiped not to violate PK constraint). On a local setup, the application is successfully able to process **all 7000 requests**.
 
 ## Key Components & Technologies
 
@@ -25,6 +28,10 @@ Once all components are running, verify the database for new records. On a local
 
 ### 5. **Clean and Domain-Driven Architecture**
 - The entire solution has been **re-organized** to follow the principles of **Clean Architecture** and **Domain-Driven Design (DDD)**. This ensures that the business logic is kept separate from infrastructure concerns, promoting a more maintainable and testable solution structure.
+
+
+### 6. **SOLID princimples**
+- I have combined different SOLID princimples to design a mainaitable, readable, and easy to extend project.
 
 ---
 

@@ -1,6 +1,5 @@
-These scripts will set up the required database structure for the application.
-
 ### 2. Running the Application
+- Run SQL script located in **Solution Items\DatabaseGenerate.sql** which will create the DB and tables
 - Open **two instances of Visual Studio**.
 - In the first instance, select the **multiple startup projects** option, and choose the **Api** and **Consumer** projects. Run them together.
 - In the second instance, run the **Tester** project.
